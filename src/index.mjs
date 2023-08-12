@@ -104,3 +104,9 @@ const myProfile = ["shinobi", 41];
 const [name, age] = myProfile;
 const message4 = `名前は${name}です。年齢は${age}です。`;
 console.log(message4);
+
+/**
+ * 三項演算子
+ */
+const test1 = 100 > 0 ? "100が勝っている" : "おかしい";
+console.log(test1);
